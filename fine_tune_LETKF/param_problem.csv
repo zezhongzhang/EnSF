@@ -1,0 +1,2 @@
+﻿obs_sigma,obs_gap,dt,N_step,run_up2,dim_x,shock_dir,state_init_dir
+0.05,10,0.01,1500,10,100,,../data
