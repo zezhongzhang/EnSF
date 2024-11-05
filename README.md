@@ -6,7 +6,8 @@ Code repository for the paper:
 ## Usage
 1. [`data`](https://github.com/zezhongzhang/EnSF/tree/main/data) contains the initial state of L96 model and the random shock profile.
    * [`gen_shock.ipynb`](https://github.com/zezhongzhang/EnSF/blob/main/data/gen_shock.ipynb) generates the random shock profiles.
-   * [`gen_state_init.ipynb`](https://github.com/zezhongzhang/EnSF/blob/main/data/gen_state_init.ipynb) generates the initial states for L96 model with different dimensions. Generate the initial state before running the one million dimensional problems.
+   * [`gen_state_init.ipynb`](https://github.com/zezhongzhang/EnSF/blob/main/data/gen_state_init.ipynb) generates the initial states for L96 model with different dimensions.
+   * Generate the initial state first before running the one-million-dimensional problem.
 2. [`fine_tune_EnSF`](https://github.com/zezhongzhang/EnSF/tree/main/fine_tune_EnSF) is the folder for fine-tuning hyperparameters of EnSF ([`fine_tune_LETKF`](https://github.com/zezhongzhang/EnSF/tree/main/fine_tune_LETKF) for LETKF).
    * [`gen_filter_param.ipynb`](https://github.com/zezhongzhang/EnSF/blob/main/fine_tune_EnSF/gen_filter_param.ipynb) generates parameter combinations in [`para_EnSF.csv`](https://github.com/zezhongzhang/EnSF/blob/main/fine_tune_EnSF/param_EnSF.csv)
    * [`param_problem.csv`](https://github.com/zezhongzhang/EnSF/blob/main/fine_tune_EnSF/param_problem.csv) is the filtering problem setting for fine-tuning.
