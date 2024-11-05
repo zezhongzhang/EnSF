@@ -4,10 +4,11 @@ Code repository for the paper:
 [Feng Bao](https://www.math.fsu.edu/~bao/), [Zezhong Zhang](https://www.ornl.gov/staff-profile/zezhong-zhang), [Guannan Zhang](https://sites.google.com/view/guannan-zhang)
 
 ## Usage
-To run L96 model with EnSF: 
-```shell
-python ./EnSF_L96.py
-```
+1. data/ contain the initial state of L96 model and the random shock profile.
+  - gen_shock.ipynb generates the random shock profiles.
+  - gen_state_init.ipynb generates the initial states for L96 model with different dimensions.
+
+
 
 ## Citation
 If you  find the idea or code of this paper useful for your research, please consider citing us:
