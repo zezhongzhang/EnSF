@@ -19,7 +19,7 @@ Code repository for the paper:
    * [`gen_param_all.ipynb`](https://github.com/zezhongzhang/EnSF/blob/main/run_all_EnSF/gen_param_all.ipynb) generates all the problem/filter combinations in [`param_combined.csv`](https://github.com/zezhongzhang/EnSF/blob/main/run_all_EnSF/param_combined.csv) with different random seeds for repeated experiments.
    * [`run_all_EnSF.ipynb`](https://github.com/zezhongzhang/EnSF/blob/main/run_all_EnSF/run_all_EnSF.ipynb) runs all problem/filter combinations and stores the results in `result`
 4. [`run_single_EnSF`](https://github.com/zezhongzhang/EnSF/tree/main/run_single_EnSF) is the folder for a single run of the filter ([`run_single_LETKF`](https://github.com/zezhongzhang/EnSF/tree/main/run_single_LETKF) for LETKF).
-   * [`run_single_EnSF.ipynb`](https://github.com/zezhongzhang/EnSF/blob/main/run_single_EnSF/run_single_EnSF.ipynb) runs the filtering problem with the problem/filter parameters in [`param_combined.csv`](https://github.com/zezhongzhang/EnSF/blob/main/run_single_EnSF/param_combined.csv) and stores the results in `result`
+   * [`run_single_EnSF.ipynb`](https://github.com/zezhongzhang/EnSF/blob/main/run_single_EnSF/run_single_EnSF.ipynb) runs the problem/filter combination in [`param_combined.csv`](https://github.com/zezhongzhang/EnSF/blob/main/run_single_EnSF/param_combined.csv) and stores the results in `result`
 
 
 ## Citation
