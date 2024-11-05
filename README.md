@@ -2,7 +2,7 @@
 Code repository for the paper:  
 **Ensemble Score Filter for Tracking High-dimensional Nonlinear Dynamical System**  
 [Feng Bao](https://www.math.fsu.edu/~bao/), [Zezhong Zhang](https://www.ornl.gov/staff-profile/zezhong-zhang), [Guannan Zhang](https://sites.google.com/view/guannan-zhang)
-
+[paper](https://www.sciencedirect.com/science/article/pii/S0045782524007023)
 ## Usage
 1. [`data`](https://github.com/zezhongzhang/EnSF/tree/main/data) contains the initial state of L96 model and the random shock profile.
    * [`gen_shock.ipynb`](https://github.com/zezhongzhang/EnSF/blob/main/data/gen_shock.ipynb) generates the random shock profiles.
