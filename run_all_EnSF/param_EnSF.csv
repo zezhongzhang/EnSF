@@ -1,0 +1,4 @@
+index,ensemble_size,Nt_SDE,solver_type,gm_var_ratio,inflation,eps_a,eps_b,method_id
+51,20,500,0,0,1,0.5,0.025,0
+61,20,500,0,0,1,0.6,0.025,1
+52,20,500,0,0,1,0.5,0.05,2

@@ -1,0 +1,3 @@
+run_index,problem_id,obs_sigma,obs_gap,dt,N_step,dim_x,shock_dir,index,ensemble_size,inflation,r_loc,neighbor_size,method_id,init_id,seed
+90,3,0.05,10,0.01,1500,1000000,../data/shock_profile_1.npy,24,20,1.1,4,10,0,0,0
+
