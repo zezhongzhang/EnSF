@@ -5,8 +5,8 @@ Code repository for the paper:
 
 ## Usage
 1. data/ contain the initial state of L96 model and the random shock profile.
-  * gen_shock.ipynb generates the random shock profiles.
-  * gen_state_init.ipynb generates the initial states for L96 model with different dimensions.
+    * gen_shock.ipynb generates the random shock profiles.
+    * gen_state_init.ipynb generates the initial states for L96 model with different dimensions.
 
 
 
